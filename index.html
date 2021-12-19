@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>3d kocky</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<script src="js/threejs/build/three.js"></script>
+	<script src="js/threejs/js/controls/OrbitControls.js"></script>
+	<script src="js/threejs/threex.keyboardstate.js"></script>
+
+
+	<body>
+
+		<div  id="canvas1">
+			<div class="time">
+				<a class="textTime" id="clock"></a>
+			</div>
+			<div class="menu">
+				<div class="container">
+
+					<a class="text">Choose size</a>
+								<button id="button" class="myButton" onclick="init(2, themeCube)">2x2</button>
+								<button id="button2" class="myButton " onclick="init(3, themeCube)">3x3</button>
+								<button id="button3" class="myButton " onclick="init(4, themeCube)">4x4</button>
+								<button id="button4" class="myButton " onclick="init(5, themeCube)">5x5</button>
+
+				</div>
+
+				<div class="container">
+					<a class="text">Choose themes</a>
+
+					<button id="button5" class="myButton " onclick="init(num, 'flower')">flower</button>
+					<button id="button6" class="myButton " onclick="init(num, 'animal')">animal</button>
+					<button id="button7" class="myButton " onclick="init(num, 'auto')">auto </button>
+					<button id="button8" class="myButton " onclick="init(num, 'weather')">weather</button>
+					<button id="button9" class="myButton " onclick="init(num, 'profession')">profession</button>
+
+				</div>
+
+
+			</div>
+			<script src="js/ThreeScene.js"></script>
+		</div>
+
+	</div>
+
+
+	</body>
+</html>

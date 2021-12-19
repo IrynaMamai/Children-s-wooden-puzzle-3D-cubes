@@ -1,0 +1,75 @@
+canvas {
+    position: absolute;  /* prevents scrollbar */
+    width: 100vw;
+    height: 100vh;
+    margin: -9px;
+}
+
+.myButton {
+    width: 12vw;
+    margin-top: 15px;
+    padding: 5px;
+    border-color: #ffffff;
+    color: #000000;
+    border-radius: 7px;
+    border-width: 3px;
+    font-size: 15px;
+}
+
+.menu {
+    position: absolute;
+    display: block;
+    z-index: 99;
+    background: black;
+    width: 15vw;
+    height: 100vh;
+    margin: -9px;
+    opacity: 0.9;
+    text-align: center;
+    overflow: hidden;
+}
+.container {
+    margin: 15px 10px;
+    overflow: hidden;
+    padding: 15px 1px;
+    width: 13vw;
+    border-color: #0073b1;
+    color: #ffffff;
+    border-radius: 3px;
+    border-width: 3px;
+    background: #545454;
+
+}
+
+.time{
+    position: absolute;
+    left: 45%;
+    z-index: 99;
+    overflow: hidden;
+    height: 35px;
+    /*padding-bottom: 1px;*/
+
+
+    padding-top: 6px;
+    padding-right: 25px;
+    padding-left: 25px;
+    /*border-color: #0073b1;*/
+    color: #ffffff;
+    border-radius: 5px;
+    background: #545454;
+}
+
+
+
+
+.textTime {
+
+    font-size: 24px;
+    text-align: center;
+}
+
+.text {
+    font-size: 21px;
+    text-align: center;
+    border-bottom: 2px solid currentColor;
+}
